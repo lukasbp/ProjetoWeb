@@ -5,6 +5,45 @@
     margin-top: 20px;
 }
 .logo-mozilla{
-    margin-top: 20px;
-    margin-left: 100px;
+    margin-top: 10px;
+    margin-left: 160px;
+}
+.firefox-item{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.projetos-item{
+    margin-left: 50px;
+}
+.desenvolvedores-item{
+    margin-left: 50px;
+}
+.sobre-item{
+    margin-left: 50px;
+}
+.button-firefox{
+    margin-left: 350px;
+    border: 2px solid blue;
+}
+.button-firefox :hover{
+    background-color: blue;
+}
+.mid-bar-content{
+    background-color: blue;
+    margin-top: 30px;
+    height: 500px;
+}
+.mid-bar-content h2{
+    color: white;
+    text-align: center;
+}
+.mid-bar-content .firefox-logo{
+    height: 14%;
+    width: 4.5%;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+.mid-bar-content .text-logo{
+    font-size: 18px;
+    color: white;
 }
