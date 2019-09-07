@@ -1,1 +1,10 @@
-/* asddsg*/
+.top-bar-navigation{
+    font-family: sans-serif;
+}
+.top-bar-nav-container{
+    margin-top: 20px;
+}
+.logo-mozilla{
+    margin-top: 20px;
+    margin-left: 100px;
+}

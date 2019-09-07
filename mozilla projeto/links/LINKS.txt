@@ -1,0 +1,6 @@
+Links
+
+LogoMoz://a:https://www.mozilla.org/media/protocol/img/logos/mozilla/black.40d1af88c248.svg
+Rabo:https://www.mozilla.org/media/img/firefox/quantum/fox-tail-header.075d5293f79a.png
+Laptop:https://www.mozilla.org/media/img/home/laptop.cad96eee9ddb.png
+LogoFirefox:https://www.mozilla.org/media/img/logos/firefox/logo-quantum.9c5e96634f92.png
