@@ -7,9 +7,37 @@ body{
 .top-bar-nav-container{
     margin-top: 20px;
 }
+.top-nav-bar-items a{
+    margin-left: 100px;
+}
+.top-nav-bar-items ul{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.list-items{
+    display: block;
+    list-style-type: none;
+}
+.list-items li{
+    display: inline;
+}
 .logo-mozilla{
-    margin-top: 10px;
-    margin-left: 160px;
+    background-image: url('https://mozilla.org/media/protocol/img/logos/mozilla/black.40d1af88c248.svg');
+    background-size: 84px,22px;
+    padding-right: 34px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    margin-left: 0px;
+}
+.logo-mozilla-div a{
+    margin-left: 0px;
+}
+.list-items a{
+    /* margin-left: 0px; */
+}
+.logo-mozilla-div{
+    /* width: 7%; */
 }
 .firefox-item{
     margin-left: 50px;
