@@ -1,43 +1,71 @@
 body{
     font-family: 'Zilla Slab', serif;
+    font-size: 1rem;
+    line-height: 1.5;
 }
 .top-bar-navigation{
-    
-}
-.top-bar-nav-container{
-    margin-top: 20px;
-}
-.top-nav-bar-items a{
-    margin-left: 100px;
+    /* margin-left: 100px; */
+    padding-left: 96px;
+    padding-right: 96px;
+    padding-bottom: 0px;
+    line-height: 27px;
+    font-size: 18px;
+    position: relative;
 }
 .top-nav-bar-items ul{
-    margin-top: 20px;
-    margin-bottom: 30px;
-    margin-left: 20px;
-}
-.list-items{
-    display: block;
-    list-style-type: none;
+    /* margin-top: 0px; */
+    /* margin-bottom: -85px; */
+    /* margin-left: 60px; */
+    line-height: 27px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 24px;
+    padding-bottom: 0px;
 }
 .list-items li{
-    display: inline;
-}
-.logo-mozilla{
-    background-image: url('https://mozilla.org/media/protocol/img/logos/mozilla/black.40d1af88c248.svg');
-    background-size: 84px,22px;
-    padding-right: 34px;
+    font-family: Inter,X-LocaleSpecific,sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 0px;
+    min-height: 40px;
+    padding-bottom: 0px;
     padding-left: 0px;
-    padding-bottom: 5px;
+    padding-right: 0px;
+    padding-top: 0px;
+    display: block;
+    float: left;
+    list-style-position: outside;
+    list-style-type: none;
+}
+.list-items a{
+    font-size: 15.75px;
+    font-weight: 400;
+    line-height: 23.6333px;
+    margin-bottom: 0px;
+    min-height: 40px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 0px;
+    position: relative;
+    z-index: auto;
+    list-style-position: outside;
+}
+.logo-mozilla-div{
+    /* height: 112px; */
+    /* width: 32px; */
+    float: left;
+    line-height: 27px;
     margin-left: 0px;
+    margin-right: 48px;
+    margin-top: 24px;
 }
 .logo-mozilla-div a{
     margin-left: 0px;
-}
-.list-items a{
-    /* margin-left: 0px; */
-}
-.logo-mozilla-div{
-    /* width: 7%; */
 }
 .firefox-item{
     margin-left: 50px;
@@ -53,15 +81,22 @@ body{
     margin-left: 50px;
 }
 .button-firefox{
-    margin-left: 350px;
-    border: 2px solid blue;
+    background-color: rgba(0, 0, 0, 0)
+}
+.button-firefox-div{
+    text-align: center;
+    font-family: Inter,X-LocaleSpecific,sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    display: block;
 }
 .button-firefox :hover{
-    background-color: blue;
+    background-color:rgb(0, 96, 223);
+    border-bottom-color:rgb(0, 96, 223);
 }
 .mid-bar-content{
     background-color: blue;
-    margin-top: 30px;
+    margin-top: 120px;
     height: 500px;
 }
 .mid-bar-content h2{
