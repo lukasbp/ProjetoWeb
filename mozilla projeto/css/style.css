@@ -14,12 +14,18 @@ h1, h2, h3, h4, h5, h6, legend{
 }
 .top-bar-navigation{
     /* margin-left: 100px; */
-    padding-left: 96px;
-    padding-right: 96px;
+    padding-left: 90px;
+    padding-right: 90px;
     padding-bottom: 0px;
     line-height: 27px;
     font-size: 18px;
-    position: relative;
+}
+.top-nav{
+	display: inline-block;
+	margin-left: -28px;
+}
+.top-nav-bar-items{
+	display: inline-block;
 }
 .top-nav-bar-items ul{
     /* margin-top: 0px; */
@@ -32,13 +38,13 @@ h1, h2, h3, h4, h5, h6, legend{
     margin-right: 0px;
     padding-left: 0px;
     padding-right: 0px;
-    padding-top: 24px;
+    padding-top: 18px;
     padding-bottom: 0px;
 }
 .top-bar-nav-container{
-    padding: 0 96px;
+    padding: 0px;
     position: relative;
-    font-family: 'Zilla Slab',serif
+    font-family: 'Zilla Slab',serif;
 }
 .list-items li{
     font-family: Inter,X-LocaleSpecific,sans-serif;
@@ -157,6 +163,8 @@ h1, h2, h3, h4, h5, h6, legend{
     padding: 0;
 }
 .button-firefox{
+	font-family: Inter,X-LocaleSpecific,sans-serif;
+    font-size: 18px;
     font-size: .875rem;
     background-image: none;
     border-radius: 2px;
@@ -170,10 +178,10 @@ h1, h2, h3, h4, h5, h6, legend{
 }
 .button-firefox-div{
     text-align: center;
-    font-family: Inter,X-LocaleSpecific,sans-serif;
-    font-size: 18px;
+    
     line-height: 27px;
-    display: block;
+    display: inline-block;
+	padding-left:23%;
     /* background-color: #0060df;
     border-color: #0060df;
     color: #fff; */
@@ -183,13 +191,14 @@ h1, h2, h3, h4, h5, h6, legend{
     background-color: #0060df;
     border-color: #0060df;
     color: #fff;
+	
 }
 .firefox-exclusive-small-link{
     font-size: 18px;
     line-height: 27px;
     margin-bottom: 4px;
-    margin-left: 0px;
-    margin-right: 0px;
+
+    margin-right: 0%;
     margin-top: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
