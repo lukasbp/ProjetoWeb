@@ -6,6 +6,11 @@ body{
 ul{
     list-style: none;
 }
+img{
+    padding-top: 0;
+	height: auto;
+	max-width: 100%;
+}
 h1, h2, h3, h4, h5, h6, legend{
     font-weight: 700;
     line-height: 1.1;
@@ -13,7 +18,7 @@ h1, h2, h3, h4, h5, h6, legend{
     padding: 0;
 }
 .top-bar-navigation{
-    /* margin-left: 100px; */
+    margin-left: 100px;
     padding-left: 90px;
     padding-right: 90px;
     padding-bottom: 0px;
@@ -185,6 +190,7 @@ h1, h2, h3, h4, h5, h6, legend{
     /* background-color: #0060df;
     border-color: #0060df;
     color: #fff; */
+    margin-left: 80px;
 }
 .button-firefox-div a:hover{
     font-family: Inter,X-LocaleSpecific,sans-serif;;
@@ -213,6 +219,7 @@ h1, h2, h3, h4, h5, h6, legend{
 }
 .small-link{
     color: inherit;
+    font-family: Inter,X-LocaleSpecific,sans-serif;
     /* text-decoration: underline; */
     font-size: 11.25px;
     line-height: 16.8833px;
@@ -231,7 +238,7 @@ h1, h2, h3, h4, h5, h6, legend{
     display: block;
     background-attachment: scroll,scroll;
     background-clip: border-box,border-box;
-
+    background-size: 116%;
 }
 .inner-mid-bar-content{
     align-items: center;
@@ -239,14 +246,6 @@ h1, h2, h3, h4, h5, h6, legend{
     padding: 0;
     margin: 0 auto;
     max-width: 1420px;
-}
-.inner-content{
-    width: calc(40%-(40px+84px));
-    float: none;
-    margin-right: 40px;
-    margin-left: 84px;
-    text-align: left;
-    color: #fff;
 }
 .inner-content h2{
     font-size: 2.6667rem;
@@ -259,6 +258,12 @@ h1, h2, h3, h4, h5, h6, legend{
     font-weight: 400;
     line-height: 1.5;
     max-width: 26em;
+}
+#text-logo{
+    font-size: 2rem;
+    font-size: 36px;
+    display: block;
+    margin-bottom: 1em;
 }
 #text-logo::before{
     background-image:url("https://www.mozilla.org/media/img/logos/firefox/logo-quantum.9c5e96634f92.png");
@@ -311,25 +316,94 @@ h1, h2, h3, h4, h5, h6, legend{
     background-color: #10a300;
     border-color: #10a300;
     text-decoration: none;
+    font-family: "Open Sans", X-LocaleSpecific, sans-serif;
 }
 .download-link a{
 }
 .download-title{
     color: #fff;
+    font-family: "Open Sans", X-LocaleSpecific, sans-serif;
 }
 .download-button{
+    font-size: 16px;
     font-size: .88889rem;
     font-family: "Open Sans", X-LocaleSpecific, sans-serif;
     cursor:pointer;
     text-align: center;
+    display: inline-block;
+    vertical-align: top;
 }
 .download-list{
     list-style-type: none;
+    margin-bottom: 10px;
+}
+.download-list li{
+	margin-left: 0;
+}
+.windows64{
+	display: block !important;
+}
+.privacy{
+    font-size: .66667rem;
+    text-align: center;
+    font-family: "Open Sans",X-LocaleSpecific,sans-serif;
+    display: block;
 }
 .privacy a{
     text-decoration: none;
     color:#fff;
+    font-family: "Open Sans",X-LocaleSpecific,sans-serif;
 }
 .privacy a:hover{
     text-decoration: underline;
+}
+.privacy a:link{
+    color: #fff;
+}
+#bruh{
+	font-family: "Open Sans",X-LocaleSpecific,sans-serif;
+	color: #fff;
+}
+#bruh .inner-mid-bar-content{
+    align-items: center;
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1420px;
+}
+#bruh .inner-content{
+    width: calc(40%-(40px+84px));
+    float: none;
+    margin-right: 40px;
+    padding-left: 84px;
+    text-align: left;
+    color: #fff;
+}
+#bruh .inner-content h2{
+    font-size: 2.6667rem;
+    font-size: 48px;
+    margin-bottom: 1em;
+}
+#bruh .innercontent p{
+    margin: 0 0 1em;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    max-width: 26em;
+}
+#bruh p{
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+    max-width: 26em;	
+    margin: 0 0 1em;
+}
+#bruh h2{
+    font-size: 2.66667rem;
+    margin-bottom: 1em;
+}
+#bruh .laptop{
+    /* width: 60%; */
+    float: none;
+    display: block;
 }
