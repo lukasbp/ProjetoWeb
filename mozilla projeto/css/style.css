@@ -1,3 +1,14 @@
+@media screen and (max-device-width:1366px){
+    .section-content{
+        margin-left: 0px;
+        width: 101.1%;
+    }
+    .button-firefox-div{
+        padding-left: 102.188;
+        margin-left: 0px;
+        padding-left: 0px;    
+    }
+}
 body{
     font-family: 'Zilla Slab', serif;
     font-size: 1rem;
@@ -183,10 +194,9 @@ h1, h2, h3, h4, h5, h6, legend{
 }
 .button-firefox-div{
     text-align: center;
-    
+    padding-left: 0;
     line-height: 27px;
     display: inline-block;
-	padding-left:23%;
     /* background-color: #0060df;
     border-color: #0060df;
     color: #fff; */
