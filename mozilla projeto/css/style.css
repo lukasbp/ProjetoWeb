@@ -1,17 +1,19 @@
-@media screen and (max-width:1366px){
+@media screen and (max-width:1366px) {
     .section-content{
-        width: 101.1%;
+        width: 101.2%;
     }
-    .button-firefox-div{
-        padding-left: 102.188%;
-        padding-left: 0px; 
-        margin-left: 150px
+    .button-firefox{
+        margin-left: 177px;
     }
 }
-@media screen and (max-width:900px){
+@media screen and (min-width:1600px){
     .button-firefox-div{
         margin-left: 380px;
     }
+    .section-content{
+        width: 101%;
+    }
+    
 }
 body{
     font-family: 'Zilla Slab', serif;
@@ -205,7 +207,6 @@ h1, h2, h3, h4, h5, h6, legend{
     /* background-color: #0060df;
     border-color: #0060df;
     color: #fff; */
-     margin-left: 380px;
 }
 .button-firefox-div a:hover{
     font-family: Inter,X-LocaleSpecific,sans-serif;;
