@@ -15,6 +15,14 @@
     }
     
 }
+@media screen and (min-width:1440px){
+    .button-firefox{
+        margin-left: 240px;
+    }
+    .section-content{
+        width: 101.1%;
+    }
+}
 body{
     font-family: 'Zilla Slab', serif;
     font-size: 1rem;
